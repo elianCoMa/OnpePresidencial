@@ -30,3 +30,24 @@
 2023-04-17T20:11:47.680-05:00  INFO 3404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-04-17T20:11:47.681-05:00  INFO 3404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-04-17T20:11:47.683-05:00  INFO 3404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-17T20:23:07.290-05:00  INFO 3404 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-17T20:23:07.307-05:00  INFO 3404 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-17T20:23:07.311-05:00  INFO 3404 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-17T20:23:07.336-05:00  INFO 3404 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T20:23:07.340-05:00  INFO 3404 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-17T20:23:07.345-05:00  INFO 3404 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-17T20:23:07.425-05:00  INFO 3404 --- [restartedMain] com.onpe.WebOnpe1Application             : Starting WebOnpe1Application using Java 17.0.6 with PID 3404 (C:\Users\elian\git\repository2\webOnpe-1\target\classes started by elian in C:\Users\elian\git\repository2\webOnpe-1)
+2023-04-17T20:23:07.426-05:00  INFO 3404 --- [restartedMain] com.onpe.WebOnpe1Application             : No active profile set, falling back to 1 default profile: "default"
+2023-04-17T20:23:07.613-05:00  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17T20:23:07.613-05:00  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-17T20:23:07.618-05:00  INFO 3404 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.onpe.repository.ITotal; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-17T20:23:07.618-05:00  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2023-04-17T20:23:07.621-05:00  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17T20:23:07.621-05:00  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17T20:23:07.627-05:00  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interfaces.
+2023-04-17T20:23:07.721-05:00  INFO 3404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-17T20:23:07.722-05:00  INFO 3404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-17T20:23:07.722-05:00  INFO 3404 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-17T20:23:07.740-05:00  INFO 3404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring embedded WebApplicationContext
+2023-04-17T20:23:07.740-05:00  INFO 3404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 311 ms
+2023-04-17T20:23:07.764-05:00  INFO 3404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
